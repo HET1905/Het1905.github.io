@@ -1,0 +1,192 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+/* ----------------Common Styling--------------------------- */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #999;
+    line-height: 1em;
+}
+
+.clear {
+    clear: both;
+}
+
+nav {
+    float: right;
+    margin-top: 35px;
+    margin-right: 250px;
+    /* position: fixed; */
+}
+
+h1,
+h2,
+h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+ul {
+
+    list-style: none;
+}
+
+/* ------------Header Styling-------------------- */
+#mainHeader {
+    width: 100%;
+    height: 80px;
+    background: #fff;
+    border-bottom: 2px solid #ccc;
+
+}
+
+li {
+    margin-right: 5px;
+    padding: 0 15px 0 5px;
+    border-right: 1px solid #99a;
+    display: inline;
+}
+
+li:last-child {
+    border: none;
+}
+
+#mainH1 {
+    float: left;
+    margin-left: 200px;
+    margin-top: 43px;
+    padding: 10px;
+
+    font-size: 1.5em;
+    /* border: 1px solid #000; */
+    background-color: #4aaaa5;
+    color: #fff;
+}
+
+/* ---------mainSectionAboutMe Styling------------ */
+.outerSectionClass {
+    width: 100%;
+    height: 600px;
+    background: #ccc url("../images/background.png") repeat;
+}
+
+/* 
+#mainSectionAboutMe {
+    width: 100%;
+    height: 500px;
+    background: #ccc url("../images/background.png") repeat;
+} */
+
+/* ------------------innerSectionAboutMe Styling-------------------------------- */
+/* 
+#innerSectionAboutMe {
+    position: relative;
+    
+    width: 960px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    top: 40px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    background: #fff;
+} */
+.innerSectionClass {
+    position: relative;
+    /* width: 90%; */
+    width: 960px;
+    height: 480px;
+    margin-left: auto;
+    margin-right: auto;
+    top: 40px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    background: #fff;
+}
+
+.innerSectionClass header {
+    margin-bottom: 30px;
+    border-bottom: 1px solid #ddd;
+}
+
+.innerSectionClass h2 {
+    font-size: 1.5em;
+    color: #4aaaa5;
+    margin: 10px 0 10px 5px;
+}
+
+.innerSectionClass p {
+    margin-top: 10px;
+    line-height: 1.8em;
+}
+
+.innerSectionClass h3 {
+    margin-bottom: 15px;
+    font-size: 1.5em;
+}
+
+/* -----------------imgDiv Styling----------------------------- */
+#imgDiv {
+    float: left;
+    width: 30%;
+
+    text-align: center;
+}
+
+#imgDiv img {
+    width: 150px;
+    height: 150px;
+
+}
+
+/* ---------------------Footer Styling------------------------------- */
+footer {
+    width: 100%;
+    height: 50px;
+    color: #fff;
+    text-align: center;
+    padding-top: 30px;
+    /* vertical-align: bottom; */
+    background: #666666;
+    border-top: 5px solid #4aaaa5;
+}
+
+/* ------------------------Contact Styling---------------------------------------- */
+label{
+    display: block;
+    /* margin-top:5px; */
+    margin-bottom: 5px;
+}
+input,textarea{
+width: 90%;
+display: block;
+padding: 5px;
+margin-bottom: 15px;
+border: 1px solid #999;
+}
+#btnSubmit{
+    width: 150px;
+    background: #4aaaa5;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 1.2em;
+}
+/* -------------------------------Portfolio Page Styling---------------------------------------------------- */
+.outerSectionPortfolio{
+    height: 700px;
+}
+.innerSectionPortfolio{
+    height: 650px;
+}
+.imgSectionClass{
+    float: left;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.imgSectionClass h2{
+    font-size: 0.9em;
+}
