@@ -32,33 +32,37 @@
                     <h2>Portfolio</h2>
                 </header>
                 <section class="imgSectionClass">
-                    <img src="assets/images/img1.jfif" alt="Desert Image" width="150" height="150">
+                    <img id="img1" src="assets/images/img1.jfif" alt="Desert Image" width="150" height="150" onclick="displayImage(this.src)">
                     <h2>Desert</h2>
                 </section>
 
                 <section class="imgSectionClass">
-                    <img src="assets/images/img2.jfif" alt="TajMahal,India" width="150" height="150">
+                    <img src="assets/images/img2.jfif" alt="TajMahal,India" width="150" height="150" onclick="displayImage(this.src)">
                     <h2>Taj Mahal, India</h2>
                 </section>
 
                 <section class="imgSectionClass">
-                    <img src="assets/images/img3.jfif" alt="Hyde Park, London" width="150" height="150">
+                    <img src="assets/images/img3.jfif" alt="Hyde Park, London" width="150" height="150" onclick="displayImage(this.src)">
                     <h2>Hyde Park, London</h2>
                 </section>
   
                 <section class="imgSectionClass">
-                <img src="assets/images/img4.jfif" alt="Moscow, Russia" width="150" height="150">
+                <img src="assets/images/img4.jfif" alt="Moscow, Russia" width="150" height="150" onclick="displayImage(this.src)">
                     <h2>Moscow, Rusia</h2>
                 </section>
   
                 <section class="imgSectionClass">
-                    <img src="assets/images/img5.jfif" alt="Twin Tower, Malaysia" width="150" height="150">
+                    <img src="assets/images/img5.jfif" alt="Twin Tower, Malaysia" width="150" height="150" onclick="displayImage(this.src)">
                     <h2>Twin Tower, Malaysia</h2>
                 </section>
             </section>
         </section>
         <div id="imgOpenDiv">
             <!-- Opens clicked image in this div -->
+            <header>
+                <span onclick="closeImg()">X</span>
+            </header>
+            <img src="" alt="" id="divImg">
         </div>
         <!-- ------------------------------------Footer-------------------------------------------- -->
         <footer class="clear">
@@ -66,6 +70,10 @@
         </footer>
 
     </div>
+
+    <script src="assets/js/script.js">
+    </script>
+
 </body>
 
 </html>
