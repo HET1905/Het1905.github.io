@@ -111,7 +111,8 @@ li:last-child {
 .innerSectionClass {
     position: relative;
     /* width: 90%; */
-    width: 960px;
+    /* width: 960px; */
+    width: 80%;
     height: 480px;
     margin-left: auto;
     margin-right: auto;
@@ -194,7 +195,8 @@ border: 1px solid #999;
     height: 700px;
 }
 .innerSectionPortfolio{
-    height: 650px;
+    height: 600px;
+    overflow: auto;
 }
 .imgSectionClass{
     float: left;
@@ -203,19 +205,35 @@ border: 1px solid #999;
 }
 .imgSectionClass h2{
     margin: 0;
-    position: relative;
+    /* position: relative; */
     font-size: 1.1em;
     
     padding: 10px;
     bottom: 50px;
     text-align: center;
-    background: #4aaaa5;
-    color: #fff;
+    /* background: #4aaaa5; */
+    color: #000;
 
 }
 .imgSectionClass img{
     width: 200px;
     height: 200px;
+}
+
+#imgContainerDiv{
+    width: 80%;
+    margin:auto auto;
+    text-align: center;
+}
+#imgContainerDiv img{
+    width:250px;
+    height: 250px;
+    border: 1px solid #000;
+}
+#imgContainerDiv img:hover{
+    padding:5px;
+    background: #000;
+    border-radius: 15px;
 }
 
 /* ------------------------------- */
@@ -244,11 +262,12 @@ border: 1px solid #999;
     padding-right: 5px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-
+    margin-bottom: 5px;
 }
 #imgOpenDiv header span{
     cursor:pointer;
     padding:5px;
+    
 }
 #imgOpenDiv header span:hover{
     background: #999;
@@ -258,4 +277,43 @@ border: 1px solid #999;
     height: 370px;
     margin-top:0px;
     /* margin-right: auto; */
+}
+
+/* ----------------------------------------------------------- */
+@media only screen and (max-width:500px){
+    #imgDiv {
+        float: none;
+        width: 80%;
+    }
+    .innerSectionClass{
+        overflow: auto;
+    }
+
+    #mainH1 {
+        float: none;
+        margin-left: 0px;
+         margin-top: 0px;
+         text-align: center;
+}
+nav {
+    float: none;
+    margin-top: 10px;
+    margin-right: 0px;
+    text-align: center;
+}
+#imgContainerDiv {
+    width: 100%;
+    height: auto;
+    overflow: auto;
+}
+#imgContainerDiv img {
+    width: 150px;
+    height: 150px;
+}
+.imgSectionClass {
+    float: none;
+    margin-left: 0px;
+    margin-bottom: 0px;
+}
+
 }
