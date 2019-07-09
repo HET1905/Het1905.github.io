@@ -204,12 +204,12 @@ border: 1px solid #999;
     margin-bottom: 10px;
 }
 .imgSectionClass h2{
-    margin: 0;
+    /* margin: 0; */
     /* position: relative; */
     font-size: 1.1em;
     
     padding: 10px;
-    bottom: 50px;
+    /* bottom: 50px; */
     text-align: center;
     /* background: #4aaaa5; */
     color: #000;
@@ -218,6 +218,8 @@ border: 1px solid #999;
 .imgSectionClass img{
     width: 200px;
     height: 200px;
+    border: 1px solid #000;
+
 }
 
 #imgContainerDiv{
@@ -225,15 +227,19 @@ border: 1px solid #999;
     margin:auto auto;
     text-align: center;
 }
+/*
 #imgContainerDiv img{
     width:250px;
     height: 250px;
     border: 1px solid #000;
-}
+} */
 #imgContainerDiv img:hover{
     padding:5px;
     background: #000;
     border-radius: 15px;
+}
+#imgContainerDiv a:hover{
+    padding:0;
 }
 
 /* ------------------------------- */
